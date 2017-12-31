@@ -1,7 +1,8 @@
 const express = require("express");
-const index = require("./routes");
-
 const app = express();
+
+// defaults routes
+const index = require("./routes");
 app.use(index);
 
 module.exports = app;
