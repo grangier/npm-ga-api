@@ -1,0 +1,21 @@
+{
+  "name": "ga-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:grangier/npm-ga-api.git",
+  "author": "Xavier Grangier <x.grangier@liberation.fr>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "node src/index.js",
+    "dev": "nodemon --exec node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  }
+}
