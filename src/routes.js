@@ -3,7 +3,7 @@ const path = require("path")
 const fs = require('fs');
 const express = require("express");
 const router = express.Router();
-// 
+//
 // const reports = require('/Users/maclibe/github/analytics-reporter/reports/reports.json').reports
 //
 // const {api_get_report} = require('./lib/api/realtime')
@@ -38,7 +38,7 @@ const router = express.Router();
 
 
 router.get("/", (req, res) => {
-  res.send("I am alive").status(200);
+  res.send("GA API pong").status(200);
 });
 
 // router.get("/analytics/report", api_get_report);

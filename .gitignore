@@ -2,7 +2,7 @@
 # dependencies
 /node_modules
 /bower_components
-
+*.lock
 # misc
 .DS_Store
 .env
