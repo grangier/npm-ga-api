@@ -8,6 +8,6 @@ router.get("/", (req, res) => {
 
 const {reporting} = require('../controllers')
 
-router.get("/bla", reporting.get_reports);
+router.get("/analytics/report", reporting.get_reports);
 
 module.exports = router;
